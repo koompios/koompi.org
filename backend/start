@@ -1,0 +1,2 @@
+#!/bin/bash
+systemfd --no-pid -s http::$1 -- cargo watch -x run
